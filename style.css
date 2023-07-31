@@ -1,0 +1,122 @@
+@charset "UTF -8";
+
+@font-face{
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+.v2{
+    max-width: 86%;
+    height: auto;
+    margin: 3% 7%;
+    
+}
+.v1{
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(16, 87, 6);
+    display: flex;
+}
+
+body{
+    background-color:rgba(114, 243, 157, 0.801);
+    margin: 0px ;
+    padding: 0%;
+}
+
+header{
+   background-image: linear-gradient(rgb(102, 230, 102), rgb(5, 117, 5));
+    color: white;
+    margin: 0px;
+    padding: 1px 1px 1px 1px;
+    
+    
+}
+
+main{
+    background-color: white;
+    margin: 0px 120px auto;
+    padding: 15px;
+    text-indent: 1em;}
+h2{
+    font-family: android;
+    text-align: unset;
+    background-image: linear-gradient( 090deg ,rgb(139, 247, 139), white );
+    color: rgb(29, 104, 29);
+}
+h1{
+    font-family: android;
+    
+    color: rgb(12, 90, 12);
+}
+header >.h1header {
+    color:white;
+    text-align: center;
+}
+
+header > section > p{
+    text-align: center;
+    font-size: 1.09em;
+}
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+nav{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+nav > .espaçolink1,.espaçolink2,.espaçolink3{
+    margin-right: 10px;
+}
+main > section >img{
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h3{
+    background-color: rgb(68, 216, 117);
+    margin: 10px 18px 0px 15px ;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.dvli{
+    max-width: 100%;
+    height: auto;
+    background-color: rgba(11, 238, 132, 0.295);
+    margin: -16px 16px;
+    border-radius: 0px 0px 10px 15px;
+}
+.list1{
+   background-color: aqua;
+   position: relative;
+   
+    
+}
+.list2{
+    background-color: blueviolet;
+    position: absolute;
+    
+   
+}
+footer{
+    background-color: rgb(15, 63, 39);
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+
