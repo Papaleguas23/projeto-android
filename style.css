@@ -98,18 +98,7 @@ h3{
     margin: -16px 16px;
     border-radius: 0px 0px 10px 15px;
 }
-.list1{
-   background-color: aqua;
-   position: relative;
-   
-    
-}
-.list2{
-    background-color: blueviolet;
-    position: absolute;
-    
-   
-}
+
 footer{
     background-color: rgb(15, 63, 39);
     text-align: center;
